@@ -99,10 +99,19 @@ const projectsData =[
       title: "Quantum Stenography with BB84 Protocol",
       description: "This project implements  an interactive application for creating quantum circuits based on the number of qubits selected and provides a detailed overview of the encoding and decoding processes.",
       image: "/images/projects/quantam.png",
-      tag: ["All","App"],
+      tag: ["All","Web"],
       gitUrl: "https://github.com/Yoriichi17/JITHACK-2024",
       previewUrl: "",
   },
+  {
+    id:12,
+    title: "Redesigning OpenBox",
+    description: "This is a e-mail handling system  for companies or organizations.",
+    image: "/images/projects/onebox.png",
+    tag: ["All","Web"],
+    gitUrl: "https://github.com/Yoriichi17/ReachInbox-Assignment",
+    previewUrl: "https://yoriichi17.github.io/ReachInbox-Assignment/",
+},
 
 ]
 const ProjectSection = () => {
