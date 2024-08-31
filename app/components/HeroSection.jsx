@@ -34,7 +34,7 @@ const HeroSection = () => {
           </h1>
           <div className=''>
             <a 
-              href="/resume1.pdf" 
+              href="/resume.pdf" 
               download="Anirudh_P_Nayak_Resume.pdf" 
               className='inline-block px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 border-white mt-3' // Maintain button styling
             >
