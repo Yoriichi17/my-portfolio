@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const HeroSection = () => {
   return (
     <section className='mt-20 py-20'>
-      <div className="grid grid-cols-1 sm:grid-cols-12 mt-8 ml-20">
+      <div className="grid grid-cols-1 sm:grid-cols-12 mt-8 ml-20 mr-20">
         <motion.div 
           initial={{ opacity: 0, scale: 0.1 }} 
           animate={{ opacity: 1, scale: 1 }} 
@@ -15,16 +15,14 @@ const HeroSection = () => {
           className='col-span-7 place-self-center text-center sm:text-left'
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5 xl lg:text-8xl font-extrabold">
-            <div className='text-transparent bg-clip-text bg-gradient-to-r  from-red-500 via-orange-500 to-yellow-500'>
+            <div className='text-transparent bg-clip-text bg-gradient-to-r  from-red-500 via-orange-500 to-yellow-500 '>
               Hello, I am{" "}
             </div>
             <TypeAnimation
               sequence={[
-                'Web Developer',
+                'Software Developer',
                 1000,
-                'App Developer',
-                1000,
-                'DevOps Engineer',
+                'Ethical Hacker',
                 1000
               ]}
               wrapper="span"
@@ -48,9 +46,9 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.1 }} 
           animate={{ opacity: 1, scale: 1 }} 
           transition={{ duration: 0.5 }} 
-          className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] mt-11 relative'
+          className='rounded-full bg-[#121212] w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] mt-11 relative'
         >
-          <div className='col-span-5 place-self-center mt-3 lg:mt-0  '>
+          <div className='col-span-5 place-self-center mt-3 lg:mt-0 mr-48  '>
             <Image
               src="/images/Pfp.jpg"
               alt='hero image'
